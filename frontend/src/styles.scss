@@ -1,0 +1,15 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body{
+    color:white;
+    margin: 0px;
+}
+html, body {
+    max-height: 100vh;
+    height: auto;
+    margin: 0;
+  }
+  .main{
+       display: flex;
+       justify-content: space-around;
+       height: 205px;
+      }

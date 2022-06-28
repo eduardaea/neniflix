@@ -1,0 +1,11 @@
+<div class="scroll"> 
+<div class="number-one">
+    <img class="img" src="https://espalhafactos.com/wp-content/uploads/2017/06/Jumanji-2.jpg" alt="image1">
+</div>
+<div class="genries" *ngFor =" let genries of genries">
+    <h1>{{genries.name}}</h1>
+    <div class="carousel">
+        <app-carousel [filmes] = "genries.filmes"></app-carousel>
+    </div>
+</div>
+</div>

@@ -1,0 +1,21 @@
+<div *ngIf = "showButtons" >
+    <div class="showbutton" >
+        <div class="lista"  *ngFor = "let genre of genries">
+            <button mat-raised-button color="warn" (click)="showMoviesOfGenre(genre.name)" class="button">{{genre.name}}</button>
+        </div>
+    </div>
+</div>
+
+  <div *ngIf = "!showButtons">
+    <a >
+        <mat-icon (click)=return() class="icon">
+            arrow_back
+        </mat-icon>
+    </a>
+    <div class="title">
+        <h1>{{title}}</h1>
+    </div>
+    <div class="row" >
+            <img *ngFor ="let movie of moviesofgenre" src="{{movie.img}}">
+    </div>
+</div>

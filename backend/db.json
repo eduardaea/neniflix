@@ -1,0 +1,142 @@
+{
+  "movies": [
+    {
+      "img": "https://br.web.img2.acsta.net/pictures/210/163/21016319_20130627174102758.jpg",
+      "title": "Constantine",
+      "genre": "Aventura",
+      "id": 1
+    },
+    {
+      "title": "Project Adam",
+      "img": "https://rollingstone.uol.com.br/media/uploads/the_adam_project_poster_filme_da_netflix_foto_reproducao_netflix.jpg",
+      "id": 2,
+      "genre": "Aventura"
+    },
+    {
+      "title": "Harry Potter e a Pedra Filosofal",
+      "img": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/7766-cartaz.jpg",
+      "id": 3,
+      "genre": "Mistério"
+    },
+    {
+      "title": "Harry Potter e a Camara secreta",
+      "img": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/19592-cartaz.jpg",
+      "id": 4,
+      "genre": "Mistério"
+    },
+    {
+      "title": "Homem Aranha de Volta ao lar",
+      "img": "https://upload.wikimedia.org/wikipedia/pt/8/87/Spider-Man_Homecoming.png",
+      "id": 5,
+      "genre": "Aventura"
+    },
+    {
+      "title": "Homem-Aranha Longe de Casa",
+      "img": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21308-cartaz.jpg",
+      "id": 6,
+      "genre": "Aventura"
+    },
+    {
+      "title": "Homem-Aranha Sem Volta para Casa",
+      "img": "https://www.sonypictures.com.br/sites/brazil/files/2022-03/KEY%20ART_SPIDER%20NO%20WAY%20HOME.JPG",
+      "id": 7,
+      "genre": "Aventura"
+    },
+    {
+      "title": "Harry Potter e o Prisioneiro de Azkaban",
+      "img": "https://img.elo7.com.br/product/zoom/2657A05/big-poster-harry-potter-e-o-prisioneiro-de-azkaban-lo2-90x60-geek.jpg",
+      "id": 8,
+      "genre": "Mistério"
+    },
+    {
+      "title": "Harry Potter e o Calice de Fogo",
+      "img": "https://play-lh.googleusercontent.com/smURodsCEeF051l1mj-zfahnJ_61IZLlUsnonb-669xzu0g53XRl_ABki2tNfb9S8ecsbg",
+      "id": 9,
+      "genre": "Mistério"
+    },
+    {
+      "title": "Harry Potter e a Ordem da Fênix ",
+      "img": "https://br.web.img3.acsta.net/medias/nmedia/18/90/67/58/20107766.jpg",
+      "id": 10,
+      "genre": "Mistério"
+    },
+    {
+      "title": "Harry Potter e o Enigma do Príncipe",
+      "img": "https://play-lh.googleusercontent.com/05xqDDh1nvU8cA_iI5D-bzrGrBd5s7Mw1HRp2hdgTOXTLBjk3c9iZX1ED54SVs2n2neSXQ",
+      "id": 11,
+      "genre": "Mistério"
+    },
+    {
+      "title": "Harry Potter e as Reliquias da Morte Parte I",
+      "img": "https://play-lh.googleusercontent.com/stxJpRK-8SowDlb6rxqS7CsV8gx59ICTwVgjGPRcsyDdEAUntk03slNU-eTbqd7rNSA",
+      "id": 12,
+      "genre": "Mistério"
+    },
+    {
+      "title": "Harry Potter e as Reliquias da Morte Parte II",
+      "img": "http://4.bp.blogspot.com/-eVzDL5yciN4/VMgrZ7qNWII/AAAAAAAAMSM/UE3dBN706pA/s1600/Harry-Potter-and-the-Deathly-Hallows-Part-2.jpg",
+      "id": 13,
+      "genre": "Mistério"
+    },
+    {
+      "title": "Cegos, Surdos e Loucos",
+      "img": "https://br.web.img2.acsta.net/pictures/14/09/07/00/27/433981.jpg",
+      "id": 14,
+      "genre": "Comédia"
+    },
+    {
+      "title": "Familia do Bagulho",
+      "img": "https://filmestipo.com/img_pt/movie/thumb/3d/2432.jpg",
+      "id": 15,
+      "genre": "Comédia"
+    },
+    {
+      "title": "Halloween",
+      "img": "https://upload.wikimedia.org/wikipedia/pt/5/58/Halloween_%282018%29.jpg",
+      "id": 16,
+      "genre": "Terror"
+    },
+    {
+      "title": "Ilha do Medo",
+      "img": "https://i0.wp.com/1.bp.blogspot.com/-WK8tgMxcwsw/WD81iYYm3dI/AAAAAAAADqg/6z-m5QRewP4zgWuRt5R655inbPvq0-2xACLcB/s1600/ILHA-DO-MEDO.jpg?ssl=1",
+      "id": 17,
+      "genre": "Suspense"
+    },
+    {
+      "title": "Efeito Borboleta",
+      "img": "https://br.web.img2.acsta.net/c_310_420/pictures/13/12/18/20/56/273919.jpg",
+      "id": 18,
+      "genre": "Suspense"
+    },
+    {
+      "title": "Truque de Mestre",
+      "img": "https://br.web.img3.acsta.net/pictures/210/140/21014024_20130619225537406.jpg",
+      "id": 19,
+      "genre": "Suspense"
+    },
+    {
+      "title": "A Garota no trem",
+      "img": "https://br.web.img3.acsta.net/pictures/16/08/16/21/02/177564.jpg",
+      "id": 20,
+      "genre": "Suspense"
+    },
+    {
+      "title": "O Homem nas Trevas",
+      "img": "https://br.web.img2.acsta.net/pictures/16/08/22/22/44/279579.jpg",
+      "id": 21,
+      "genre": "Suspense"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/pt/0/06/Ice_Age_p%C3%B4ster.jpg",
+      "title": "A Era do Gelo",
+      "genre": "Animação",
+      "id": 23
+    },
+    {
+      "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQCkbJyohdOaIHNh-UyoNGe29R50CiAZ1qmEXHpXXFqnVgE06cl",
+      "title": "Nem Que a Vaca Tussa",
+      "genre": "Animação",
+      "id": 24
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<div *ngIf = "!showForm" class="list">
+    <button mat-fab color="primary" (click)="showForm=true">
+        <mat-icon>add</mat-icon>
+    </button>
+    <div *ngFor="let movie of moviesArray">
+        <div class="all">
+            <a>{{movie.title}}</a>
+            <div class="action">
+                <button mat-mini-fab color="accent" (click)="edit(movie)">
+                    <mat-icon>edit</mat-icon>
+                </button>
+                <button mat-mini-fab color="warn" (click)="deleteMovie(movie)">
+                    <mat-icon>delete</mat-icon>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="showForm">
+    <form class="form">
+        <mat-form-field>
+            <input matInput placeholder="Título"
+            [(ngModel)]="movie.title" name="title">
+                    </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Categoria"
+            [(ngModel)]="movie.genre" name="genre">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Url da Imagem"
+            [(ngModel)]="movie.img" name="img">
+        </mat-form-field>
+    </form>
+    <div class="button" *ngIf="!update">
+        <button mat-raised-button (click)="createMovie()" color="primary">
+            Salvar
+        </button>
+        <button mat-raised-button (click)="showForm=false" color="primary"> 
+            Cancelar
+        </button>
+    </div>
+    <div *ngIf="update">
+        <button mat-raised-button (click)="updateMovie()" color="primary">
+            Atualizar
+        </button>
+        <button mat-raised-button (click)="showForm=false" color="accent"> 
+            Cancelar
+        </button>  
+    </div>
+</div>
